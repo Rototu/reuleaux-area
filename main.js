@@ -139,7 +139,7 @@ var white = 0,
 // iterate through each pixel
 for ( var p = 0; p < numberOfPixels; p += 4 ) {
 
-   // verify if pixel in black or white (no racism intended)
+   // verify if pixel is black or white (no racism intended)
    if ( pixelArray[ p + r ] == 255 && pixelArray[ p + g ] == 255 && pixelArray[ p + b ] == 255 ) {
       white++;
    }
