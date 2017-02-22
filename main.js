@@ -258,6 +258,10 @@ var reuleauxArea = numberOfSides * Math.pow( reuleauxRadius, 2 ) / 2 * ( ( 1 - M
 // Calculate percentage of Reuleaux Polygon Area from Parent Polygon Area
 var percentage = ( 100 * reuleauxArea / polygonArea ) + "%";
 
+// transform angles from radian value to degrees
+polygonAngle *= 180 / Math.PI; 
+reuleauxAngle *= 180 / Math.PI;
+
 // Display values
 var displayArea = document.getElementById( "myVals" );
 displayArea.innerHTML = "Number of Polygon Sides: " + numberOfSides +
