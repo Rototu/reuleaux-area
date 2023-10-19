@@ -4,4 +4,4 @@ An web-based application for the approximation of the area of a Reuleaux polygon
 
 ## Demo
 
-To see the code in action, visit https://rototu.github.io/matlan/.  
+To see the code in action, visit https://rototu.github.io/reuleaux-area/ .  
